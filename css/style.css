@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-color: #0a192f;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    position: fixed;
+    left: 15px;
+    top: 200px;
+    height: 100vh;
+    width: 80px;
+    z-index: 1;
+}
+
+.sidebar-2 {
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.text-decoration {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.span-color {
+    color: #fcdb56;
+}
+
+.border-round {
+    border: 2px solid #fcdb56;
+    border-radius: 7px;
+}
+
+.mg-top {
+    margin-top: 200px;
+}
+
+.mg-top-2 {
+    margin-top: 120px;
+}
+
+.mg-top-3 {
+    margin-top: 100px;
+}
+
+.hoover-img {
+    transform: scale(1.4);
+}
+
+.reviews {
+    color: #8892b0;
+    font: 15px Roboto, sans-serif;
+    font-weight: bold;
+}
+
+.reviews-2 {
+    color: #8892b0;
+    font: 25px Roboto, sans-serif;
+    font-weight: bold;
+}
+
+.transform:hover {
+    transform: translateY(-10px);
+    transition: all 0.5s;
+}
+
+.border-bt {
+    border-bottom: 2px solid #fcdb56;
+    display: inline-block;
+    border-radius: 5px;
+    border-bottom-width: 5px;
+}
+
+.hover-img:hover {
+    color: #fcdb56;
+}
+
+.line-height-paragraph {
+    line-height: 1.7rem;
+    font-size: 16px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gallery a {
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    overflow-x: hidden;
+}
+
+.gallery a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery a img:hover {
+    transform: scale(1.4);
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+    .sidebar {
+        display: none;
+    }
+    .border-round {
+        width: 120px;
+    }
+    .mg-top {
+        margin-top: 170px;
+    }
+    .break {
+        display: none;
+    }
+    .mg {
+        margin-left: 18px;
+    }
+}
