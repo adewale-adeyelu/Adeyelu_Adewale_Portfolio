@@ -53,6 +53,15 @@
     margin-top: 100px;
 }
 
+.text {
+    color: #fcdb56;
+    cursor: pointer;
+}
+
+.bi-brower-chrome {
+    color: #fcdb56;
+}
+
 .hoover-img {
     transform: scale(1.4);
 }
